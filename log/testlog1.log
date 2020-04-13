@@ -1,0 +1,46 @@
+2020-04-13 12:43:15,849 [main] INFO stepdefinition - Chrome Driver Opened
+2020-04-13 12:43:29,723 [main] INFO stepdefinition - Navigated to URL
+2020-04-13 12:43:30,206 [main] INFO stepdefinition - Credentials entered
+2020-04-13 12:43:34,066 [main] INFO stepdefinition - Application is closed
+2020-04-13 12:57:57,231 [main] INFO stepdefinition - Chrome Driver Opened
+2020-04-13 12:58:11,915 [main] INFO stepdefinition - Navigated to URL
+2020-04-13 12:58:12,451 [main] INFO stepdefinition - Credentials entered
+2020-04-13 12:58:17,823 [main] INFO stepdefinition - Application is closed
+2020-04-13 13:03:14,578 [main] INFO stepdefinition - Chrome Driver Opened
+2020-04-13 13:03:27,975 [main] INFO stepdefinition - Navigated to URL
+2020-04-13 13:03:28,699 [main] INFO stepdefinition - Credentials entered
+2020-04-13 13:03:39,511 [main] INFO stepdefinition - Directory is clicked
+2020-04-13 13:03:39,993 [main] INFO stepdefinition - Employee name entered
+2020-04-13 13:03:41,287 [main] INFO stepdefinition - Search button clicked
+2020-04-13 13:03:41,291 [main] INFO stepdefinition - User details displayed
+2020-04-13 13:09:16,537 [main] INFO stepdefinition - Chrome Driver Opened
+2020-04-13 13:09:27,541 [main] INFO stepdefinition - Navigated to URL
+2020-04-13 13:09:28,146 [main] INFO stepdefinition - Credentials entered
+2020-04-13 13:09:32,991 [main] INFO stepdefinition - Application is closed
+2020-04-13 13:09:40,463 [main] INFO stepdefinition - Chrome Driver Opened
+2020-04-13 13:09:48,636 [main] INFO stepdefinition - Navigated to URL
+2020-04-13 13:09:49,051 [main] INFO stepdefinition - Credentials entered
+2020-04-13 13:09:57,036 [main] INFO stepdefinition - Admin is clicked
+2020-04-13 13:09:57,968 [main] INFO stepdefinition - username entered
+2020-04-13 13:09:58,840 [main] INFO stepdefinition - Search button clicked
+2020-04-13 13:09:58,864 [main] INFO stepdefinition - User details displayed
+2020-04-13 13:10:05,219 [main] INFO stepdefinition - Chrome Driver Opened
+2020-04-13 13:10:13,298 [main] INFO stepdefinition - Navigated to URL
+2020-04-13 13:10:13,737 [main] INFO stepdefinition - Credentials entered
+2020-04-13 13:10:20,904 [main] INFO stepdefinition - Directory is clicked
+2020-04-13 13:10:21,231 [main] INFO stepdefinition - Employee name entered
+2020-04-13 13:10:23,544 [main] INFO stepdefinition - Search button clicked
+2020-04-13 13:10:23,547 [main] INFO stepdefinition - User details displayed
+2020-04-13 13:10:29,882 [main] INFO stepdefinition - Chrome Driver Opened
+2020-04-13 13:10:38,432 [main] INFO stepdefinition - Navigated to URL
+2020-04-13 13:10:38,925 [main] INFO stepdefinition - Credentials entered
+2020-04-13 13:10:45,928 [main] INFO stepdefinition - Assign leave is clicked 
+2020-04-13 13:10:46,816 [main] INFO stepdefinition - Employee name entered
+2020-04-13 13:10:47,116 [main] INFO stepdefinition - leave type selected
+2020-04-13 13:10:47,348 [main] INFO stepdefinition - From calender clicked
+2020-04-13 13:10:47,603 [main] INFO stepdefinition - From date entered
+2020-04-13 13:10:47,894 [main] INFO stepdefinition - To calender clicked
+2020-04-13 13:10:48,196 [main] INFO stepdefinition - To date entered
+2020-04-13 13:10:48,479 [main] INFO stepdefinition - Partial days selected
+2020-04-13 13:10:48,737 [main] INFO stepdefinition - Assign button clicked
+2020-04-13 13:10:48,739 [main] INFO stepdefinition - Leave assigned 
