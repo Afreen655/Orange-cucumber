@@ -44,3 +44,10 @@
 2020-04-13 13:10:48,479 [main] INFO stepdefinition - Partial days selected
 2020-04-13 13:10:48,737 [main] INFO stepdefinition - Assign button clicked
 2020-04-13 13:10:48,739 [main] INFO stepdefinition - Leave assigned 
+2020-04-13 14:59:01,288 [main] INFO stepdefinition - Chrome Driver Opened
+2020-04-13 14:59:12,583 [main] INFO stepdefinition - Navigated to URL
+2020-04-13 14:59:13,175 [main] INFO stepdefinition - Credentials entered
+2020-04-13 14:59:22,114 [main] INFO stepdefinition - Directory is clicked
+2020-04-13 14:59:22,413 [main] INFO stepdefinition - Employee name entered
+2020-04-13 14:59:24,107 [main] INFO stepdefinition - Search button clicked
+2020-04-13 14:59:24,109 [main] INFO stepdefinition - User details displayed

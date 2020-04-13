@@ -1,42 +1,42 @@
 package Cts.Orangehrm.Utility;
 
-	import java.io.File;
-	import java.io.IOException;
+import java.io.File;
+import java.io.IOException;
 
-	import org.apache.commons.io.FileUtils;
-	import org.openqa.selenium.OutputType;
-	import org.openqa.selenium.TakesScreenshot;
-	import org.openqa.selenium.WebDriver;
+import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebDriver;
+/**
+ * class to cpature screenshot
+ * @author Afreen Mohammad
+ *
+ */
+public class Screenshot {
 	/**
-	 * class to cpature screenshot
-	 * @author Afreen Mohammad
-	 *
+	 * method  to capture screenshot
+	 * @param driver
+	 * @return path
 	 */
-	public class Screenshot {
-		/**
-		 * method  to capture screenshot
-		 * @param driver
-		 * @return path
-		 */
-		public String getScreenshot(WebDriver driver) {
+	public String getScreenshot(WebDriver driver) {
 
-			TakesScreenshot ts= (TakesScreenshot)driver;
+		TakesScreenshot ts= (TakesScreenshot)driver;
 
-			File source=ts.getScreenshotAs(OutputType.FILE);
+		File source=ts.getScreenshotAs(OutputType.FILE);
 
-			String path= System.getProperty("user.dir")+"/Screenshot/"+System.currentTimeMillis()+".png";
+		String path= System.getProperty("user.dir")+"/Screenshot/"+System.currentTimeMillis()+".png";
 
-			File destination=new File(path);
+		File destination=new File(path);
 
-			try {
-				FileUtils.copyFile(source,destination );
-			} catch (IOException e) {
-				// TODO Auto-generated catch block
-				System.out.println("Capture Failed" + e.getMessage());
-			}
-			return path;
+		try {
+			FileUtils.copyFile(source,destination );
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			System.out.println("Capture Failed" + e.getMessage());
 		}
-
+		return path;
 	}
+
+}
 
 

@@ -1,14 +1,14 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("assignleave.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("directory.feature");
 formatter.feature({
   "line": 2,
-  "name": "To assign leave to an employee",
+  "name": "check the  complete details of user",
   "description": "",
-  "id": "to-assign-leave-to-an-employee",
+  "id": "check-the--complete-details-of-user",
   "keyword": "Feature",
   "tags": [
     {
       "line": 1,
-      "name": "@leave"
+      "name": "@directory"
     }
   ]
 });
@@ -16,7 +16,7 @@ formatter.scenarioOutline({
   "line": 4,
   "name": "check the user details with valid credentials and Invalid credentials",
   "description": "",
-  "id": "to-assign-leave-to-an-employee;check-the-user-details-with-valid-credentials-and-invalid-credentials",
+  "id": "check-the--complete-details-of-user;check-the-user-details-with-valid-credentials-and-invalid-credentials",
   "type": "scenario_outline",
   "keyword": "Scenario Outline"
 });
@@ -37,88 +37,58 @@ formatter.step({
 });
 formatter.step({
   "line": 8,
-  "name": "In dashboard assign leave is clicked",
+  "name": "directory is clicked",
   "keyword": "When "
 });
 formatter.step({
   "line": 9,
-  "name": "I enter valid Employee Name",
+  "name": "I enter valid name",
   "keyword": "When "
 });
 formatter.step({
   "line": 10,
-  "name": "select leave type",
+  "name": "click the Search button",
   "keyword": "When "
 });
 formatter.step({
   "line": 11,
-  "name": "I click from calender",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 12,
-  "name": "I enter from date",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 13,
-  "name": "I click to calender",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 14,
-  "name": "I enter to date",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 15,
-  "name": "I select Partial days",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 16,
-  "name": "clicking the Assign button",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 17,
-  "name": "leave is assigned to employee",
+  "name": "user details displayed",
   "keyword": "Then "
 });
 formatter.examples({
-  "line": 19,
+  "line": 13,
   "name": "",
   "description": "",
-  "id": "to-assign-leave-to-an-employee;check-the-user-details-with-valid-credentials-and-invalid-credentials;",
+  "id": "check-the--complete-details-of-user;check-the-user-details-with-valid-credentials-and-invalid-credentials;",
   "rows": [
     {
       "cells": [
         "usernameNumber"
       ],
-      "line": 20,
-      "id": "to-assign-leave-to-an-employee;check-the-user-details-with-valid-credentials-and-invalid-credentials;;1"
+      "line": 14,
+      "id": "check-the--complete-details-of-user;check-the-user-details-with-valid-credentials-and-invalid-credentials;;1"
     },
     {
       "cells": [
         "1"
       ],
-      "line": 21,
-      "id": "to-assign-leave-to-an-employee;check-the-user-details-with-valid-credentials-and-invalid-credentials;;2"
+      "line": 15,
+      "id": "check-the--complete-details-of-user;check-the-user-details-with-valid-credentials-and-invalid-credentials;;2"
     }
   ],
   "keyword": "Examples"
 });
 formatter.scenario({
-  "line": 21,
+  "line": 15,
   "name": "check the user details with valid credentials and Invalid credentials",
   "description": "",
-  "id": "to-assign-leave-to-an-employee;check-the-user-details-with-valid-credentials-and-invalid-credentials;;2",
+  "id": "check-the--complete-details-of-user;check-the-user-details-with-valid-credentials-and-invalid-credentials;;2",
   "type": "scenario",
   "keyword": "Scenario Outline",
   "tags": [
     {
       "line": 1,
-      "name": "@leave"
+      "name": "@directory"
     }
   ]
 });
@@ -142,59 +112,29 @@ formatter.step({
 });
 formatter.step({
   "line": 8,
-  "name": "In dashboard assign leave is clicked",
+  "name": "directory is clicked",
   "keyword": "When "
 });
 formatter.step({
   "line": 9,
-  "name": "I enter valid Employee Name",
+  "name": "I enter valid name",
   "keyword": "When "
 });
 formatter.step({
   "line": 10,
-  "name": "select leave type",
+  "name": "click the Search button",
   "keyword": "When "
 });
 formatter.step({
   "line": 11,
-  "name": "I click from calender",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 12,
-  "name": "I enter from date",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 13,
-  "name": "I click to calender",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 14,
-  "name": "I enter to date",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 15,
-  "name": "I select Partial days",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 16,
-  "name": "clicking the Assign button",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 17,
-  "name": "leave is assigned to employee",
+  "name": "user details displayed",
   "keyword": "Then "
 });
 formatter.match({
   "location": "OrangehrmTest.open_chrome_and_start_application()"
 });
 formatter.result({
-  "duration": 8673854200,
+  "duration": 12797790592,
   "status": "passed"
 });
 formatter.match({
@@ -207,84 +147,42 @@ formatter.match({
   "location": "OrangehrmTest.i_enter_valid_and_valid(String)"
 });
 formatter.result({
-  "duration": 488959639,
+  "duration": 530057086,
   "status": "passed"
 });
 formatter.match({
   "location": "OrangehrmTest.user_should_be_able_to_login()"
 });
 formatter.result({
-  "duration": 5010748404,
+  "duration": 2927273634,
   "status": "passed"
 });
 formatter.match({
-  "location": "OrangehrmTest.in_dashboard_assign_leave_is_clicked()"
+  "location": "OrangehrmTest.directory_is_clicked()"
 });
 formatter.result({
-  "duration": 1977938297,
+  "duration": 6001024416,
   "status": "passed"
 });
 formatter.match({
-  "location": "OrangehrmTest.i_enter_valid_Employee_Name()"
+  "location": "OrangehrmTest.i_enter_valid_name()"
 });
 formatter.result({
-  "duration": 887288499,
+  "duration": 299170700,
   "status": "passed"
 });
 formatter.match({
-  "location": "OrangehrmTest.select_leave_type()"
+  "location": "OrangehrmTest.click_the_Search_button()"
 });
 formatter.result({
-  "duration": 299770547,
+  "duration": 1688284953,
   "status": "passed"
 });
 formatter.match({
-  "location": "OrangehrmTest.i_click_from_calender()"
+  "location": "OrangehrmTest.user_details_displayed()"
 });
 formatter.result({
-  "duration": 230813396,
-  "status": "passed"
-});
-formatter.match({
-  "location": "OrangehrmTest.i_enter_from_date()"
-});
-formatter.result({
-  "duration": 255094583,
-  "status": "passed"
-});
-formatter.match({
-  "location": "OrangehrmTest.i_click_to_calender()"
-});
-formatter.result({
-  "duration": 289365499,
-  "status": "passed"
-});
-formatter.match({
-  "location": "OrangehrmTest.i_enter_to_date()"
-});
-formatter.result({
-  "duration": 301357287,
-  "status": "passed"
-});
-formatter.match({
-  "location": "OrangehrmTest.i_select_Partial_days()"
-});
-formatter.result({
-  "duration": 281208205,
-  "status": "passed"
-});
-formatter.match({
-  "location": "OrangehrmTest.clicking_the_Assign_button()"
-});
-formatter.result({
-  "duration": 257930360,
-  "status": "passed"
-});
-formatter.match({
-  "location": "OrangehrmTest.leave_is_assigned_to_employee()"
-});
-formatter.result({
-  "duration": 6193650674,
+  "duration": 5988519649,
   "status": "passed"
 });
 });
